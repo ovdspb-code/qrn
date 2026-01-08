@@ -1,0 +1,12 @@
+{
+  "graph": "chain",
+  "N": 10,
+  "target_node": "N-1",
+  "sink_rate_eta": 0.8,
+  "time_horizon_T_au": 20,
+  "diffusion_gamma_values_note": "Figures 2-3 typically fix gamma; Figures 4-5 sweep gamma. Use manuscript values.",
+  "dephasing_kappa_values_note": "Sweep kappa on the grid used in the manuscript.",
+  "potential_formula": "V_i = 0.3*(9 - i + epsilon_i), epsilon_i ~ Uniform[-0.5,0.5]",
+  "rng_seed_TODO": "TODO",
+  "output": "Provide the explicit epsilon_i and V_i in toy_model_potential_seed_TEMPLATE.csv"
+}

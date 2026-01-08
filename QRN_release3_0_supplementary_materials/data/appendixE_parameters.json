@@ -1,0 +1,10 @@
+{
+  "E_comm_J_per_event": 2.5e-07,
+  "f_fix_Hz": 1.0,
+  "E_pre_J": 0.0,
+  "P_tax_values_W": [
+    1e-06,
+    1e-05
+  ],
+  "note": "Matches Appendix E illustrative values used in Table E-1 and Figure E-1."
+}
